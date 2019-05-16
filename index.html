@@ -1,0 +1,59 @@
+<html>
+  <html lang ="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>Random Generator Project</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+          <img src="./emoji-photos/Beet-Burger.jpg" alt="beetburger">
+      </div>
+      <div class="item">
+        <img src="./emoji-photos/vegansushi.jpg" alt="vegan">
+      </div>
+      <div class="item">
+        <img src="./emoji-photos/pumpkinpancakes.jpg" alt="pancakes">
+      </div>
+      <div class="item">
+        <img src="./emoji-photos/fishtacos.jpg" alt="fishtacos">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-xs-6" id="header">
+  <div class="row">
+    <h1>Om Nom Nom</h1>
+    <button onclick="eatTacos()">Eat Tacos</button><br><br><br>
+    <button onclick="eatBrunch()">Eat Brunch</button><br><br><br>
+    <button onclick="eatSushi()">Eat Sushi</button><br><br><br>
+  </div>
+  <div class="row" id="yourChoice">
+    <h2>You Should Eat At:</h2><br>
+    <h3 id="displayResultTacos"></h3>
+    <h3 id="displayResultBrunch"></h3>
+    <h3 id="displayResultSushi"></h3>
+  </div>
+</div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
